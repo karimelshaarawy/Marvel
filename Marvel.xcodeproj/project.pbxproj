@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		FF70212B2B504B4A00743DE1 /* Marvel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */; };
 		FF70212D2B504B4C00743DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF70212C2B504B4C00743DE1 /* Assets.xcassets */; };
 		FF7021302B504B4C00743DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF70212E2B504B4C00743DE1 /* LaunchScreen.storyboard */; };
+		FF70213A2B504BB500743DE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF7021392B504BB500743DE1 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF70213A2B504BB500743DE1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +60,7 @@
 		FF70211F2B504B4A00743DE1 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
-				FF7021202B504B4A00743DE1 /* AppDelegate.swift */,
-				FF7021222B504B4A00743DE1 /* SceneDelegate.swift */,
+				FF7021372B504B7300743DE1 /* Delegates */,
 				FF7021242B504B4A00743DE1 /* ViewController.swift */,
 				FF7021262B504B4A00743DE1 /* Main.storyboard */,
 				FF70212C2B504B4C00743DE1 /* Assets.xcassets */,
@@ -68,6 +69,15 @@
 				FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */,
 			);
 			path = Marvel;
+			sourceTree = "<group>";
+		};
+		FF7021372B504B7300743DE1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FF7021222B504B4A00743DE1 /* SceneDelegate.swift */,
+				FF7021202B504B4A00743DE1 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +96,9 @@
 			dependencies = (
 			);
 			name = Marvel;
+			packageProductDependencies = (
+				FF7021392B504BB500743DE1 /* Alamofire */,
+			);
 			productName = Marvel;
 			productReference = FF70211D2B504B4A00743DE1 /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -106,7 +119,7 @@
 				};
 			};
 			buildConfigurationList = FF7021182B504B4A00743DE1 /* Build configuration list for PBXProject "Marvel" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +127,9 @@
 				Base,
 			);
 			mainGroup = FF7021142B504B4A00743DE1;
+			packageReferences = (
+				FF7021382B504BB500743DE1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FF70211E2B504B4A00743DE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF7021382B504BB500743DE1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF7021392B504BB500743DE1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF7021382B504BB500743DE1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */ = {
