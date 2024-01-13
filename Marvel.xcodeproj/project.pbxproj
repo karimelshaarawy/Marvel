@@ -9,24 +9,49 @@
 /* Begin PBXBuildFile section */
 		FF7021212B504B4A00743DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021202B504B4A00743DE1 /* AppDelegate.swift */; };
 		FF7021232B504B4A00743DE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021222B504B4A00743DE1 /* SceneDelegate.swift */; };
-		FF7021252B504B4A00743DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021242B504B4A00743DE1 /* ViewController.swift */; };
+		FF7021252B504B4A00743DE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021242B504B4A00743DE1 /* HomeViewController.swift */; };
 		FF7021282B504B4A00743DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7021262B504B4A00743DE1 /* Main.storyboard */; };
 		FF70212B2B504B4A00743DE1 /* Marvel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */; };
 		FF70212D2B504B4C00743DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF70212C2B504B4C00743DE1 /* Assets.xcassets */; };
 		FF7021302B504B4C00743DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF70212E2B504B4C00743DE1 /* LaunchScreen.storyboard */; };
 		FF70213A2B504BB500743DE1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF7021392B504BB500743DE1 /* Alamofire */; };
+		FF70213D2B504DB000743DE1 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70213C2B504DB000743DE1 /* APIManager.swift */; };
+		FF70213F2B5064B500743DE1 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70213E2B5064B500743DE1 /* MD5.swift */; };
+		FF7021422B50682A00743DE1 /* CharacterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021412B50682A00743DE1 /* CharacterRequest.swift */; };
+		FF7021452B512DAB00743DE1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021442B512DAB00743DE1 /* HomeViewModel.swift */; };
+		FF7021482B5139C500743DE1 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021462B5139C500743DE1 /* CharacterTableViewCell.swift */; };
+		FF7021492B5139C500743DE1 /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021472B5139C500743DE1 /* CharacterTableViewCell.xib */; };
+		FF70214C2B513A9800743DE1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FF70214B2B513A9800743DE1 /* Kingfisher */; };
+		FF70214E2B5188D600743DE1 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70214D2B5188D600743DE1 /* CharacterViewController.swift */; };
+		FF7021502B52059A00743DE1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70214F2B52059A00743DE1 /* StartViewController.swift */; };
+		FF7021532B52DCA600743DE1 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021512B52DCA600743DE1 /* CollectionTableViewCell.swift */; };
+		FF7021542B52DCA600743DE1 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */; };
+		FF7021572B52DDFE00743DE1 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */; };
+		FF7021582B52DDFE00743DE1 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF70211D2B504B4A00743DE1 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7021202B504B4A00743DE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7021222B504B4A00743DE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF7021242B504B4A00743DE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF7021242B504B4A00743DE1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FF7021272B504B4A00743DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF70212A2B504B4A00743DE1 /* Marvel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marvel.xcdatamodel; sourceTree = "<group>"; };
 		FF70212C2B504B4C00743DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF70212F2B504B4C00743DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7021312B504B4C00743DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF70213C2B504DB000743DE1 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FF70213E2B5064B500743DE1 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		FF7021412B50682A00743DE1 /* CharacterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRequest.swift; sourceTree = "<group>"; };
+		FF7021442B512DAB00743DE1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FF7021462B5139C500743DE1 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		FF7021472B5139C500743DE1 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		FF70214D2B5188D600743DE1 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		FF70214F2B52059A00743DE1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FF7021512B52DCA600743DE1 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF70214C2B513A9800743DE1 /* Kingfisher in Frameworks */,
 				FF70213A2B504BB500743DE1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,13 +86,24 @@
 		FF70211F2B504B4A00743DE1 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				FF7021432B512D7200743DE1 /* ViewModels */,
+				FF7021402B50680F00743DE1 /* Models */,
+				FF70213B2B504D8400743DE1 /* Managers */,
 				FF7021372B504B7300743DE1 /* Delegates */,
-				FF7021242B504B4A00743DE1 /* ViewController.swift */,
+				FF7021242B504B4A00743DE1 /* HomeViewController.swift */,
 				FF7021262B504B4A00743DE1 /* Main.storyboard */,
 				FF70212C2B504B4C00743DE1 /* Assets.xcassets */,
 				FF70212E2B504B4C00743DE1 /* LaunchScreen.storyboard */,
 				FF7021312B504B4C00743DE1 /* Info.plist */,
 				FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */,
+				FF7021462B5139C500743DE1 /* CharacterTableViewCell.swift */,
+				FF7021472B5139C500743DE1 /* CharacterTableViewCell.xib */,
+				FF70214D2B5188D600743DE1 /* CharacterViewController.swift */,
+				FF70214F2B52059A00743DE1 /* StartViewController.swift */,
+				FF7021512B52DCA600743DE1 /* CollectionTableViewCell.swift */,
+				FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */,
+				FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */,
+				FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */,
 			);
 			path = Marvel;
 			sourceTree = "<group>";
@@ -78,6 +115,31 @@
 				FF7021202B504B4A00743DE1 /* AppDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FF70213B2B504D8400743DE1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FF70213C2B504DB000743DE1 /* APIManager.swift */,
+				FF70213E2B5064B500743DE1 /* MD5.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FF7021402B50680F00743DE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF7021412B50682A00743DE1 /* CharacterRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF7021432B512D7200743DE1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF7021442B512DAB00743DE1 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +160,7 @@
 			name = Marvel;
 			packageProductDependencies = (
 				FF7021392B504BB500743DE1 /* Alamofire */,
+				FF70214B2B513A9800743DE1 /* Kingfisher */,
 			);
 			productName = Marvel;
 			productReference = FF70211D2B504B4A00743DE1 /* Marvel.app */;
@@ -129,6 +192,7 @@
 			mainGroup = FF7021142B504B4A00743DE1;
 			packageReferences = (
 				FF7021382B504BB500743DE1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FF70214A2B513A9800743DE1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = FF70211E2B504B4A00743DE1 /* Products */;
 			projectDirPath = "";
@@ -144,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7021542B52DCA600743DE1 /* CollectionTableViewCell.xib in Resources */,
 				FF7021302B504B4C00743DE1 /* LaunchScreen.storyboard in Resources */,
 				FF70212D2B504B4C00743DE1 /* Assets.xcassets in Resources */,
 				FF7021282B504B4A00743DE1 /* Main.storyboard in Resources */,
+				FF7021582B52DDFE00743DE1 /* ImageCollectionViewCell.xib in Resources */,
+				FF7021492B5139C500743DE1 /* CharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,9 +224,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7021252B504B4A00743DE1 /* ViewController.swift in Sources */,
+				FF7021252B504B4A00743DE1 /* HomeViewController.swift in Sources */,
 				FF7021212B504B4A00743DE1 /* AppDelegate.swift in Sources */,
+				FF7021572B52DDFE00743DE1 /* ImageCollectionViewCell.swift in Sources */,
+				FF7021482B5139C500743DE1 /* CharacterTableViewCell.swift in Sources */,
+				FF70213F2B5064B500743DE1 /* MD5.swift in Sources */,
+				FF7021452B512DAB00743DE1 /* HomeViewModel.swift in Sources */,
+				FF7021502B52059A00743DE1 /* StartViewController.swift in Sources */,
+				FF70213D2B504DB000743DE1 /* APIManager.swift in Sources */,
+				FF7021532B52DCA600743DE1 /* CollectionTableViewCell.swift in Sources */,
+				FF70214E2B5188D600743DE1 /* CharacterViewController.swift in Sources */,
 				FF70212B2B504B4A00743DE1 /* Marvel.xcdatamodeld in Sources */,
+				FF7021422B50682A00743DE1 /* CharacterRequest.swift in Sources */,
 				FF7021232B504B4A00743DE1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +464,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		FF70214A2B513A9800743DE1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -395,6 +479,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FF7021382B504BB500743DE1 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		FF70214B2B513A9800743DE1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF70214A2B513A9800743DE1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 
