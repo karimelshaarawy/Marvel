@@ -96,27 +96,15 @@
 		FF70211F2B504B4A00743DE1 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				FFF67CBC2B557A0D00FCBC6E /* Views */,
+				FFF67CBB2B5579D200FCBC6E /* ViewControllers */,
 				FF7021432B512D7200743DE1 /* ViewModels */,
 				FF7021402B50680F00743DE1 /* Models */,
 				FF70213B2B504D8400743DE1 /* Managers */,
 				FF7021372B504B7300743DE1 /* Delegates */,
-				FF7021242B504B4A00743DE1 /* HomeViewController.swift */,
-				FF7021262B504B4A00743DE1 /* Main.storyboard */,
 				FF70212C2B504B4C00743DE1 /* Assets.xcassets */,
-				FF70212E2B504B4C00743DE1 /* LaunchScreen.storyboard */,
 				FF7021312B504B4C00743DE1 /* Info.plist */,
 				FF7021292B504B4A00743DE1 /* Marvel.xcdatamodeld */,
-				FF7021462B5139C500743DE1 /* CharacterTableViewCell.swift */,
-				FF7021472B5139C500743DE1 /* CharacterTableViewCell.xib */,
-				FF70214D2B5188D600743DE1 /* CharacterViewController.swift */,
-				FF70214F2B52059A00743DE1 /* StartViewController.swift */,
-				FF7021512B52DCA600743DE1 /* CollectionTableViewCell.swift */,
-				FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */,
-				FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */,
-				FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */,
-				FF70215D2B552BE600743DE1 /* ImageGalleryViewController.swift */,
-				FF70215F2B552C4800743DE1 /* GalleryCollectionViewCell.swift */,
-				FF7021602B552C4800743DE1 /* GalleryCollectionViewCell.xib */,
 			);
 			path = Marvel;
 			sourceTree = "<group>";
@@ -155,6 +143,34 @@
 				FF70215B2B52FF6500743DE1 /* CharacterViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FFF67CBB2B5579D200FCBC6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF70214F2B52059A00743DE1 /* StartViewController.swift */,
+				FF7021242B504B4A00743DE1 /* HomeViewController.swift */,
+				FF70214D2B5188D600743DE1 /* CharacterViewController.swift */,
+				FF70215D2B552BE600743DE1 /* ImageGalleryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FFF67CBC2B557A0D00FCBC6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF7021262B504B4A00743DE1 /* Main.storyboard */,
+				FF70212E2B504B4C00743DE1 /* LaunchScreen.storyboard */,
+				FF7021462B5139C500743DE1 /* CharacterTableViewCell.swift */,
+				FF7021472B5139C500743DE1 /* CharacterTableViewCell.xib */,
+				FF7021512B52DCA600743DE1 /* CollectionTableViewCell.swift */,
+				FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */,
+				FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */,
+				FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */,
+				FF70215F2B552C4800743DE1 /* GalleryCollectionViewCell.swift */,
+				FF7021602B552C4800743DE1 /* GalleryCollectionViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
