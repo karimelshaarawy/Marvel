@@ -50,6 +50,40 @@ class APIManager{
             
         }
         }
+    
+    static func getCollections(url: String,completion: @escaping (_ characters: [Collection]?,_ error: Error?)-> Void){
+        
+        let timeStamp = NSDate().timeIntervalSince1970
+        let hashString = String(timeStamp)+privateKey+publicKey
+        let hash = Hash.getMD5(hashString: hashString)
+        let parameters:Parameters = ["hash":hash,
+                         "apikey": publicKey,
+                         "ts":String(timeStamp),
+                          ]
+        AF.request(url
+,method: .get,parameters: parameters,encoding: URLEncoding.default).response{ response in
+            guard response.error == nil else{
+                print(response.error?.localizedDescription)
+                completion(nil,response.error)
+                return
+            }
+            
+            guard let data = response.data else{
+                print("Couldn't get data from API")
+                return
+            }
+            
+            do {
+                let decoder = JSONDecoder()
+                let characters = try decoder.decode(CollectionRequest.self, from: data)
+                completion(characters.data?.results,nil)
+
+            } catch let error{
+                completion(nil,error)
+            }
+            
+        }
+        }
         
     }
     

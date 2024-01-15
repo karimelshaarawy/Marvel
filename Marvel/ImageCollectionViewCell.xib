@@ -10,29 +10,40 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="Marvel" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="93" height="124"/>
+            <rect key="frame" x="0.0" y="0.0" width="93" height="152"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="93" height="124"/>
+                <rect key="frame" x="0.0" y="0.0" width="93" height="152"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel" translatesAutoresizingMaskIntoConstraints="NO" id="JLx-t2-QjI">
-                        <rect key="frame" x="0.0" y="0.0" width="93" height="124"/>
+                        <rect key="frame" x="0.0" y="0.0" width="93" height="112"/>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQo-KH-hfp">
+                        <rect key="frame" x="0.0" y="112" width="93" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.90980392160000001" green="1" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="JLx-t2-QjI" secondAttribute="bottom" id="EQV-Wr-4JV"/>
+                <constraint firstAttribute="bottom" secondItem="tQo-KH-hfp" secondAttribute="bottom" id="5aY-Jq-a9v"/>
                 <constraint firstItem="JLx-t2-QjI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XFI-ws-EBz"/>
+                <constraint firstItem="tQo-KH-hfp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bfe-Cw-5QG"/>
+                <constraint firstAttribute="trailing" secondItem="tQo-KH-hfp" secondAttribute="trailing" id="bu3-18-7lk"/>
+                <constraint firstAttribute="bottom" secondItem="JLx-t2-QjI" secondAttribute="bottom" constant="40" id="jYu-qB-N1s"/>
+                <constraint firstItem="tQo-KH-hfp" firstAttribute="top" secondItem="JLx-t2-QjI" secondAttribute="bottom" id="jzk-aF-U7c"/>
                 <constraint firstItem="JLx-t2-QjI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tuH-23-xtm"/>
                 <constraint firstAttribute="trailing" secondItem="JLx-t2-QjI" secondAttribute="trailing" id="uGJ-Dj-QeQ"/>
             </constraints>
-            <size key="customSize" width="93" height="124"/>
+            <size key="customSize" width="93" height="152"/>
             <connections>
+                <outlet property="comicName" destination="tQo-KH-hfp" id="l5O-vT-inY"/>
                 <outlet property="imageView" destination="JLx-t2-QjI" id="2ip-o1-Zps"/>
             </connections>
-            <point key="canvasLocation" x="113.74045801526717" y="45.774647887323944"/>
+            <point key="canvasLocation" x="113.74045801526717" y="55.633802816901408"/>
         </collectionViewCell>
     </objects>
     <resources>

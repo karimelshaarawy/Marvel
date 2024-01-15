@@ -28,6 +28,11 @@
 		FF7021542B52DCA600743DE1 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */; };
 		FF7021572B52DDFE00743DE1 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */; };
 		FF7021582B52DDFE00743DE1 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */; };
+		FF70215A2B52FA6200743DE1 /* CollectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7021592B52FA6200743DE1 /* CollectionRequest.swift */; };
+		FF70215C2B52FF6500743DE1 /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70215B2B52FF6500743DE1 /* CharacterViewModel.swift */; };
+		FF70215E2B552BE600743DE1 /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70215D2B552BE600743DE1 /* ImageGalleryViewController.swift */; };
+		FF7021612B552C4800743DE1 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70215F2B552C4800743DE1 /* GalleryCollectionViewCell.swift */; };
+		FF7021622B552C4800743DE1 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7021602B552C4800743DE1 /* GalleryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
 		FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF7021592B52FA6200743DE1 /* CollectionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionRequest.swift; sourceTree = "<group>"; };
+		FF70215B2B52FF6500743DE1 /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		FF70215D2B552BE600743DE1 /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewController.swift; sourceTree = "<group>"; };
+		FF70215F2B552C4800743DE1 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7021602B552C4800743DE1 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,9 @@
 				FF7021522B52DCA600743DE1 /* CollectionTableViewCell.xib */,
 				FF7021552B52DDFE00743DE1 /* ImageCollectionViewCell.swift */,
 				FF7021562B52DDFE00743DE1 /* ImageCollectionViewCell.xib */,
+				FF70215D2B552BE600743DE1 /* ImageGalleryViewController.swift */,
+				FF70215F2B552C4800743DE1 /* GalleryCollectionViewCell.swift */,
+				FF7021602B552C4800743DE1 /* GalleryCollectionViewCell.xib */,
 			);
 			path = Marvel;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7021412B50682A00743DE1 /* CharacterRequest.swift */,
+				FF7021592B52FA6200743DE1 /* CollectionRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7021442B512DAB00743DE1 /* HomeViewModel.swift */,
+				FF70215B2B52FF6500743DE1 /* CharacterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -213,6 +228,7 @@
 				FF70212D2B504B4C00743DE1 /* Assets.xcassets in Resources */,
 				FF7021282B504B4A00743DE1 /* Main.storyboard in Resources */,
 				FF7021582B52DDFE00743DE1 /* ImageCollectionViewCell.xib in Resources */,
+				FF7021622B552C4800743DE1 /* GalleryCollectionViewCell.xib in Resources */,
 				FF7021492B5139C500743DE1 /* CharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,18 +241,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7021252B504B4A00743DE1 /* HomeViewController.swift in Sources */,
+				FF70215C2B52FF6500743DE1 /* CharacterViewModel.swift in Sources */,
 				FF7021212B504B4A00743DE1 /* AppDelegate.swift in Sources */,
 				FF7021572B52DDFE00743DE1 /* ImageCollectionViewCell.swift in Sources */,
+				FF7021612B552C4800743DE1 /* GalleryCollectionViewCell.swift in Sources */,
 				FF7021482B5139C500743DE1 /* CharacterTableViewCell.swift in Sources */,
 				FF70213F2B5064B500743DE1 /* MD5.swift in Sources */,
 				FF7021452B512DAB00743DE1 /* HomeViewModel.swift in Sources */,
 				FF7021502B52059A00743DE1 /* StartViewController.swift in Sources */,
 				FF70213D2B504DB000743DE1 /* APIManager.swift in Sources */,
 				FF7021532B52DCA600743DE1 /* CollectionTableViewCell.swift in Sources */,
+				FF70215E2B552BE600743DE1 /* ImageGalleryViewController.swift in Sources */,
 				FF70214E2B5188D600743DE1 /* CharacterViewController.swift in Sources */,
 				FF70212B2B504B4A00743DE1 /* Marvel.xcdatamodeld in Sources */,
 				FF7021422B50682A00743DE1 /* CharacterRequest.swift in Sources */,
 				FF7021232B504B4A00743DE1 /* SceneDelegate.swift in Sources */,
+				FF70215A2B52FA6200743DE1 /* CollectionRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
